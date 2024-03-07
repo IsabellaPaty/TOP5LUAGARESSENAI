@@ -19,6 +19,9 @@ onPress={() => navigation.navigate('AreaVerde')} />
 <Button
 title="Quiosque"
 onPress={() => navigation.navigate('Quiosque')} />
+  <Button
+title="Sala"
+onPress={() => navigation.navigate('Sala')} />
 </View>
  );
 }
@@ -52,6 +55,27 @@ function Cantina({ navigation }) {
       </text>
       <Image
         source={{ uri: 'https://raw.githubusercontent.com/IsabellaPaty/TOP5LUAGARESSENAI/main/Cantina.jpeg' }}
+        style={styles.imagem2}
+      />
+      <Text style={styles.descricao2}>
+      A cantina é um ambiente legal por ser um ponto de encontro para desfrutar de boa comida e socializar, oferecendo variedade gastronômica e uma atmosfera acolhedora. Pietra
+      </Text>
+      <Button
+title="Sair"
+onPress={() => navigation.navigate('Home')} />
+
+    </View>
+    
+   );
+}
+function Sala({ navigation }) {
+  return (
+    <View style={styles.container2}>
+      <text>
+        cantina
+      </text>
+      <Image
+        source={{ uri: '' }}
         style={styles.imagem2}
       />
       <Text style={styles.descricao2}>
@@ -198,6 +222,7 @@ return (
 <Stack.Screen name="Cantina" component={Cantina} />
 <Stack.Screen name="AreaVerde" component={AreaVerde} />
 <Stack.Screen name="Quiosque" component={Quiosque} />
+<Stack.Screen name="Sala" component={Sala} />
 
 
 </Stack.Navigator>
