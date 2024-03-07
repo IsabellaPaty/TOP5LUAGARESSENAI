@@ -75,11 +75,11 @@ function Sala({ navigation }) {
         cantina
       </text>
       <Image
-        source={{ uri: '' }}
+        source={{ uri: 'https://github.com/IsabellaPaty/TOP5LUAGARESSENAI/blob/main/WhatsApp%20Image%202024-03-07%20at%208.30.25%20AM.jpeg' }}
         style={styles.imagem2}
       />
       <Text style={styles.descricao2}>
-      A cantina é um ambiente legal por ser um ponto de encontro para desfrutar de boa comida e socializar, oferecendo variedade gastronômica e uma atmosfera acolhedora. Pietra
+     A sala é o lugar de estudo , conversa e criatividade. Milleny
       </Text>
       <Button
 title="Sair"
